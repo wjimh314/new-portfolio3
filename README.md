@@ -34,5 +34,5 @@ once app has been deployed, the user will be able to see all of my information. 
     "react-scroll": "^1.8.1",
     "web-vitals": "^2.1.4
 
-
+github : https://github.com/wjimh314/new-portfolio3
 
