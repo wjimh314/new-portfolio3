@@ -38,3 +38,5 @@ github : https://github.com/wjimh314/new-portfolio3
 
 git hub live : https://wjimh314.github.io/new-portfolio3
 
+![screenshot](new-portfolio/new_portfolio/src/screenshot1.jpeg?raw=true "screenshot")
+
