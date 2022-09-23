@@ -36,3 +36,5 @@ once app has been deployed, the user will be able to see all of my information. 
 
 github : https://github.com/wjimh314/new-portfolio3
 
+git hub live : https://wjimh314.github.io/new-portfolio3
+
