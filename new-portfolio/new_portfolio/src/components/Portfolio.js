@@ -233,13 +233,13 @@ const Portfolio = () => {
 		fadeInSpeed: 500,
 	};
 
-	const openPopupboxDevlophub = () => {
+	const openPopupboxDevelophub = () => {
 		const content = (
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={Devlophub}
-					alt="Devlophub"
+					src={Develophub}
+					alt="Develophub"
 				/>
 				<p>
 				The goal of this project was to make a small app that will quiz your javascript knowledge
@@ -259,10 +259,10 @@ const Portfolio = () => {
 		PopupboxManager.update({});
 	};
 
-	const popupboxConfigDevlophub = {
+	const popupboxConfigDevelophub = {
 		titleBar: {
 			enable: true,
-			text: "Develop-hub",
+			text: "Develophub",
 		},
 		fadeIn: true,
 		fadeInSpeed: 500,
