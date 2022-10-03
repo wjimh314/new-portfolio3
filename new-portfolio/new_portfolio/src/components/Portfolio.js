@@ -213,10 +213,10 @@ const Portfolio = () => {
 				<a
 					className="hyper-link"
 					onClick={() =>
-						window.open("https://github.com/wjimh314/Password-Generator")
+						window.open("https://floating-refuge-15851.herokuapp.com/categories/HTML")
 					}
 				>
-					https://github.com/wjimh314/Password-Generator
+					https://floating-refuge-15851.herokuapp.com/categories/HTML
 				</a>
 			</>
 		);
