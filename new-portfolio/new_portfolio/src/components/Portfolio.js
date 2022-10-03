@@ -4,7 +4,7 @@ import gitThatCurrency from "../gitThatCurrency.jpg";
 import JATE from "../JATE.jpg";
 import javascriptTest from "../javascriptTest.jpeg";
 import noteTaker from "../noteTaker.jpg";
-import passwordGenerator from "../passwordGenerator.jpg";
+import Develophub from "../Develophub.jpeg";
 
 //react popupbox
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -199,40 +199,6 @@ const Portfolio = () => {
 
 	//passwordGenerator
 
-	const openPopupboxpasswordGenerator = () => {
-		const content = (
-			<>
-				<img
-					className="portfolio-image-popupbox"
-					src={passwordGenerator}
-					alt="passwordGenerator"
-				/>
-				<p>
-				In this project we were tasked to make a javascript app that would randomly generate a password
-				</p>
-				<b>GitHub:</b>{" "}
-				<a
-					className="hyper-link"
-					onClick={() =>
-						window.open("https://github.com/wjimh314/Password-Generator")
-					}
-				>
-					https://github.com/wjimh314/Password-Generator
-				</a>
-			</>
-		);
-		PopupboxManager.open({ content });
-		PopupboxManager.update({});
-	};
-
-	const popupboxConfigpasswordGenerator = {
-		titleBar: {
-			enable: true,
-			text: "passwordGenerator",
-		},
-		fadeIn: true,
-		fadeInSpeed: 500,
-	};
 
 	const openPopupboxDevelophub = () => {
 		const content = (
@@ -243,16 +209,16 @@ const Portfolio = () => {
 					alt="Develophub"
 				/>
 				<p>
-				The goal of this project was to make a small app that will quiz your javascript knowledge
+				The goal of this project was to make a small app that will be a quick reference to keep your coding skills sharp	
 				</p>
 				<b>Heroku:</b>{" "}
 				<a
 					className="hyper-link"
 					onClick={() =>
-						window.open("https://floating-refuge-15851.herokuapp.com/categories/HTML")
+						window.open("https://floating-refuge-15851.herokuapp.com/")
 					}
 				>
-					https://floating-refuge-15851.herokuapp.com/categories/HTML
+					https://floating-refuge-15851.herokuapp.com/
 				</a>
 			</>
 		);
@@ -309,12 +275,12 @@ const Portfolio = () => {
 					</div>
 					<div
 						className="portfolio-image-box "
-						onClick={openPopupboxpasswordGenerator}
+						onClick={openPopupboxDevelophub}
 					>
 						<img
 							className="portfolio-image"
-							src={passwordGenerator}
-							alt="passwordGenerator"
+							src={Develophub}
+							alt="Develophub"
 						/>
 						<div className="overflow"> </div>
 					</div>{" "}
@@ -325,7 +291,7 @@ const Portfolio = () => {
 			<PopupboxContainer {...popupboxConfigJATE} />
 			<PopupboxContainer {...popupboxConfigjavascriptTest} />
 			<PopupboxContainer {...popupboxConfignoteTaker} />
-			<PopupboxContainer {...popupboxConfigpasswordGenerator} />
+			<PopupboxContainer {...popupboxConfigDevelophub} />
 		</div>
 	);
 };
